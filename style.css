@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(9, 18, 39);
+    font-family: 'REM', sans-serif;
+}
+
+/* Card Content Starts Here */
+
+
+
+.card{
+    background: rgb(10, 25, 55);
+    width: 280px;
+    padding: 13px;
+    border-radius: .5rem;
+    margin: 1%;
+    margin-left: 39%;
+    margin-top: 3%;
+    box-shadow: -1px 4px 16px 11px rgba(2, 9, 21, 0.85);
+    -webkit-box-shadow: -1px 4px 16px 11px rgba(6, 15, 34, 0.85);
+    -moz-box-shadow: -1px 4px 16px 11px rgba(10, 26, 58, 0.85);
+}
+
+.card-image{
+    margin-bottom: 1rem;
+}
+
+.card-image img{
+    display: flex;
+    width: 255px;
+    height: 240px;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: .25rem;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.card-description{
+    font-size: 0.9rem;
+    margin-top: 2%;
+    text-align: left;
+    color: #aea9a9;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-content1{
+    margin-top: 5%;
+    color: aqua;
+    font-weight: bold;
+}
+
+.card-content1 img{
+    width: 3.2%;
+}
+
+.card-content2{
+    display: flex;
+    justify-content: right;
+    margin-top: -8%;
+    margin-bottom: 5%;
+    color: #aea9a9;
+}
+
+.card-content3{
+    margin-top: -10%;
+    margin-left: -5%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.card-content3 span{
+    color: #aea9a9;
+}
+
+.img{
+    margin-top: 4%;
+    width: 9%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+/* Card Content Ends Here */
+
+
+/* Responsive Starts Here */
+@media screen and (max-width: 414px) {
+    .card{
+        background: rgb(10, 25, 55);
+        width: 250px;
+        padding: 13px;
+        border-radius: .5rem;
+        margin: 1%;
+        margin-left: 16.5%;
+        margin-top: 3%;
+        box-shadow: -1px 4px 16px 11px rgba(2, 9, 21, 0.85);
+        -webkit-box-shadow: -1px 4px 16px 11px rgba(6, 15, 34, 0.85);
+        -moz-box-shadow: -1px 4px 16px 11px rgba(10, 26, 58, 0.85);
+    }
+
+    .card-image img{
+        display: flex;
+        width: 225px;
+        height: 240px;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+  }
+
+@media screen and (max-width: 390px) {
+    .card{
+        background: rgb(10, 25, 55);
+        width: 250px;
+        padding: 13px;
+        border-radius: .5rem;
+        margin: 1%;
+        margin-left: 16.5%;
+        margin-top: 3%;
+        box-shadow: -1px 4px 16px 11px rgba(2, 9, 21, 0.85);
+        -webkit-box-shadow: -1px 4px 16px 11px rgba(6, 15, 34, 0.85);
+        -moz-box-shadow: -1px 4px 16px 11px rgba(10, 26, 58, 0.85);
+    }
+
+    .card-image img{
+        display: flex;
+        width: 225px;
+        height: 240px;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+  }
+
+  
+/* Responsive Ends Here */
+
